@@ -265,6 +265,8 @@
                 <product>
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
+                    <value>47.88</value>
+                    <value>0.092903</value>
                       <table>
                           <independentVar>aero/alpha-rad</independentVar>
                           <tableData>
@@ -300,6 +302,8 @@
                 <product>
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
+                    <value>47.88</value>
+                    <value>0.092903</value>
                     <property>aero/cl-squared</property>
                     <value>0.088/value>
                 </product>
@@ -347,9 +351,11 @@
         <axis name="LIFT">
             <function name="aero/coefficient/CLalpha">
                 <description>Lift_due_to_alpha</description>
-                <product>
+                <product>qbar-psf
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
+                    <value>47.88</value>
+                    <value>0.092903</value>
                       <table>
                           <independentVar>aero/alpha-rad</independentVar>
                           <tableData>
@@ -385,6 +391,8 @@
                 <product>
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
+                    <value>47.88</value>
+                    <value>0.092903</value>
                     <property>fcs/elevator-pos-rad</property>
                     <value>0.377</value>
                 </product>
