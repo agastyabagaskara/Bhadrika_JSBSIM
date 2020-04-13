@@ -351,7 +351,7 @@
         <axis name="LIFT">
             <function name="aero/coefficient/CLalpha">
                 <description>Lift_due_to_alpha</description>
-                <product>qbar-psf
+                <product>
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
                     <value>47.88</value>
