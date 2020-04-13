@@ -283,7 +283,7 @@
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
                     <property>aero/cl-squared</property>
-                    <value>0.0400</value>
+                    <value>0.088/value>
                 </product>
             </function>
             <function name="aero/coefficient/CDbeta">
