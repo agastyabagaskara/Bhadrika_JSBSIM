@@ -331,7 +331,9 @@
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
                     <property>fcs/elevator-pos-norm</property>
-                    <value>0.0300</value>
+                    <value>47.88</value>
+                    <value>0.092903</value>
+                    <value>0.0381/value>
                 </product>
             </function>
         </axis>
