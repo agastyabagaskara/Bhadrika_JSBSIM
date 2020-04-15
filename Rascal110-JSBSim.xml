@@ -265,8 +265,6 @@
                 <product>
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
-                    <value>47.88</value>
-                    <value>0.092903</value>
                       <table>
                           <independentVar>aero/alpha-rad</independentVar>
                           <tableData>
@@ -302,8 +300,6 @@
                 <product>
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
-                    <value>47.88</value>
-                    <value>0.092903</value>
                     <property>aero/cl-squared</property>
                     <value>0.088/value>
                 </product>
@@ -331,8 +327,6 @@
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
                     <property>fcs/elevator-pos-norm</property>
-                    <value>47.88</value>
-                    <value>0.092903</value>
                     <value>0.0381/value>
                 </product>
             </function>
@@ -356,8 +350,6 @@
                 <product>
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
-                    <value>47.88</value>
-                    <value>0.092903</value>
                       <table>
                           <independentVar>aero/alpha-rad</independentVar>
                           <tableData>
@@ -393,8 +385,6 @@
                 <product>
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
-                    <value>47.88</value>
-                    <value>0.092903</value>
                     <property>fcs/elevator-pos-rad</property>
                     <value>0.377</value>
                 </product>
