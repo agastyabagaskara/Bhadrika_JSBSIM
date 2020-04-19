@@ -420,7 +420,7 @@
                     <property>metrics/Sw-sqft</property>
                     <property>metrics/bw-ft</property>
                     <property>aero/beta-rad</property>
-                    <value>-0.1000</value>
+                    <value>-0.0183</value>
                 </product>
             </function>
             <function name="aero/coefficient/Clp">
