@@ -116,7 +116,7 @@
                 <location unit="M">
                     <x> -0.03 </x>
                     <y> 0 </y>
-                    <z> -0.15 </z>
+                    <z> -0.112 </z>
                 </location>
                 <orient unit="DEG">
                     <roll> 0.0 </roll>
