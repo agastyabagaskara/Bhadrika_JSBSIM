@@ -431,7 +431,7 @@
                     <property>metrics/bw-ft</property>
                     <property>aero/bi2vel</property>
                     <property>velocities/p-aero-rad_sec</property>
-                    <value>-0.4000</value>
+                    <value>-0.51908</value>
                 </product>
             </function>
             <function name="aero/coefficient/Clr">
