@@ -572,7 +572,7 @@
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
                     <property>metrics/bw-ft</property>
-                    <value>0.0007</value>
+                    <value>0.0001</value>
                 </product>
             </function>
         </axis>
