@@ -543,7 +543,7 @@
                     <property>metrics/bw-ft</property>
                     <property>aero/bi2vel</property>
                     <property>velocities/r-aero-rad_sec</property>
-                    <value>-0.1500</value>
+                    <value>-0.032826</value>
                 </product>
             </function>
             <function name="aero/coefficient/Cndr">
