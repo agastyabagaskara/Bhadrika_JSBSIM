@@ -563,7 +563,7 @@
                     <property>metrics/Sw-sqft</property>
                     <property>metrics/bw-ft</property>
                     <property>fcs/left-aileron-pos-rad</property>
-                    <value>-0.0300</value>
+                    <value>-0.00382</value>
                 </product>
             </function>
             <function name="aero/coefficient/Cndi">
