@@ -455,8 +455,8 @@
                       <table>
                           <independentVar>velocities/mach</independentVar>
                           <tableData>
-                              0.0000    0.1300  
-                              2.0000    0.0570  
+                              0.0000    0.1069  
+                              2.0000    0.1069  
                           </tableData>
                       </table>
                 </product>
