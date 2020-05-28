@@ -54,9 +54,9 @@
     <ground_reactions>
         <contact type="BOGEY" name="LEFT_MLG">
             <location unit="IN">
-                <x> 33.1 </x>
+                <x> -16.9 </x>
                 <y> -9.9 </y>
-                <z> -13.1 </z>
+                <z> -7.8 </z>
             </location>
             <static_friction> 0.8 </static_friction>
             <dynamic_friction> 0.5 </dynamic_friction>
@@ -64,14 +64,14 @@
             <spring_coeff unit="LBS/FT"> 20 </spring_coeff>
             <damping_coeff unit="LBS/FT/SEC"> 10 </damping_coeff>
             <max_steer unit="DEG"> 0.0 </max_steer>
-            <brake_group> LEFT </brake_group>
+            <brake_group> NONE </brake_group>
             <retractable>0</retractable>
         </contact>
         <contact type="BOGEY" name="RIGHT_MLG">
             <location unit="IN">
-                <x> 33.1 </x>
+                <x> -16.9 </x>
                 <y> 9.9 </y>
-                <z> -13.1 </z>
+                <z> -7.8 </z>
             </location>
             <static_friction> 0.8 </static_friction>
             <dynamic_friction> 0.5 </dynamic_friction>
@@ -79,21 +79,21 @@
             <spring_coeff unit="LBS/FT"> 20 </spring_coeff>
             <damping_coeff unit="LBS/FT/SEC"> 10 </damping_coeff>
             <max_steer unit="DEG"> 0.0 </max_steer>
-            <brake_group> RIGHT </brake_group>
+            <brake_group> NONE </brake_group>
             <retractable>0</retractable>
         </contact>
         <contact type="BOGEY" name="TAIL_LG">
             <location unit="IN">
-                <x> 68.9 </x>
+                <x> 18.9 </x>
                 <y> 0 </y>
-                <z> -6.6 </z>
+                <z> -7.8 </z>
             </location>
             <static_friction> 0.8 </static_friction>
             <dynamic_friction> 0.5 </dynamic_friction>
             <rolling_friction> 0.02 </rolling_friction>
             <spring_coeff unit="LBS/FT"> 10 </spring_coeff>
             <damping_coeff unit="LBS/FT/SEC"> 5 </damping_coeff>
-            <max_steer unit="DEG"> 360.0 </max_steer>
+            <max_steer unit="DEG"> 0.0 </max_steer>
             <brake_group> NONE </brake_group>
             <retractable>0</retractable>
         </contact>
@@ -104,7 +104,7 @@
             <location unit="M">
                 <x> -0.03 </x>
                 <y> 0 </y>
-                <z> -0.15 </z>
+                <z> -0.112 </z>
             </location>
             <orient unit="DEG">
                 <roll> 0.0 </roll>
@@ -114,9 +114,9 @@
             <feed>0</feed>
             <thruster file="18x8">
                 <location unit="M">
-                    <x> -0.03 </x>
+                    <x> 0 </x>
                     <y> 0 </y>
-                    <z> 0 </z>
+                    <z> -0.112 </z>
                 </location>
                 <orient unit="DEG">
                     <roll> 0.0 </roll>
@@ -268,12 +268,12 @@
                       <table>
                           <independentVar>aero/alpha-rad</independentVar>
                           <tableData>
-                          	0.0000	0.0296
-							0.0349	0.0280
-							0.0698	0.0311
-							0.1047	0.0402
-							0.1396	0.0583
-							0.1745	0.0875
+                            0.0000  0.0296
+                            0.0349  0.0280
+                            0.0698  0.0311
+                            0.1047  0.0402
+                            0.1396  0.0583
+                            0.1745  0.0875
                           </tableData>
                       </table>name
                 </product>
@@ -295,31 +295,31 @@
                       <table>
                           <independentVar>aero/beta-rad</independentVar>
                           <tableData>
-                              -0.10472	0.00199
-                              -0.09599	0.00158
-                              -0.08727	0.00139
-                              -0.07854	0.00112
-                              -0.06981	0.00083
-                              -0.06109	0.00058
-                              -0.05236	0.00048
-                              -0.04363	0.00031
-                              -0.03491	0.00017
-                              -0.02618	0.00011
-                              -0.01745	0.00004
-                              -0.00873	0.00001
-                              0.00000	0.00000
-                              0.00873	0.00001
-                              0.01745	0.00004
-                              0.02618	0.00011
-                              0.03491	0.00017
-                              0.04363	0.00031
-                              0.05236	0.00048
-                              0.06109	0.00058
-                              0.06981	0.00083
-                              0.07854	0.00112
-                              0.08727	0.00139
-                              0.09599	0.00158
-                              0.10472	0.00199
+                              -0.10472  0.00199
+                              -0.09599  0.00158
+                              -0.08727  0.00139
+                              -0.07854  0.00112
+                              -0.06981  0.00083
+                              -0.06109  0.00058
+                              -0.05236  0.00048
+                              -0.04363  0.00031
+                              -0.03491  0.00017
+                              -0.02618  0.00011
+                              -0.01745  0.00004
+                              -0.00873  0.00001
+                              0.00000   0.00000
+                              0.00873   0.00001
+                              0.01745   0.00004
+                              0.02618   0.00011
+                              0.03491   0.00017
+                              0.04363   0.00031
+                              0.05236   0.00048
+                              0.06109   0.00058
+                              0.06981   0.00083
+                              0.07854   0.00112
+                              0.08727   0.00139
+                              0.09599   0.00158
+                              0.10472   0.00199
                           </tableData>
                       </table>
                 </product>
@@ -356,39 +356,39 @@
                       <table>
                           <independentVar>aero/alpha-rad</independentVar>
                           <tableData>
-								-0.087270	-0.761480
-								-0.078540	-0.717610
-								-0.069810	-0.673630
-								-0.061090	-0.629550
-								-0.052360	-0.585370
-								-0.043630	-0.541100
-								-0.034910	-0.496750
-								-0.026180	-0.452330
-								-0.017450	-0.407840
-								-0.008730	-0.363300
-								0.000000	0.318700
-								0.008730	0.363300
-								0.017450	0.407840
-								0.026180	0.452330
-								0.034910	0.496750
-								0.043630	0.541100
-								0.052360	0.585370
-								0.061090	0.629550
-								0.069810	0.673630
-								0.078540	0.717610
-								0.087270	0.761480
-								0.095990	0.805240
-								0.104720	0.848860
-								0.113450	0.892360
-								0.122170	0.935720
-								0.130900	0.978930
-								0.139630	1.021980
-								0.148350	1.064880
-								0.157080	1.107610
-								0.165810	1.150170
-								0.174530	1.192540
-								0.183260	1.234730
-								0.191990	1.276720
+                                -0.087270   -0.761480
+                                -0.078540   -0.717610
+                                -0.069810   -0.673630
+                                -0.061090   -0.629550
+                                -0.052360   -0.585370
+                                -0.043630   -0.541100
+                                -0.034910   -0.496750
+                                -0.026180   -0.452330
+                                -0.017450   -0.407840
+                                -0.008730   -0.363300
+                                0.000000    0.318700
+                                0.008730    0.363300
+                                0.017450    0.407840
+                                0.026180    0.452330
+                                0.034910    0.496750
+                                0.043630    0.541100
+                                0.052360    0.585370
+                                0.061090    0.629550
+                                0.069810    0.673630
+                                0.078540    0.717610
+                                0.087270    0.761480
+                                0.095990    0.805240
+                                0.104720    0.848860
+                                0.113450    0.892360
+                                0.122170    0.935720
+                                0.130900    0.978930
+                                0.139630    1.021980
+                                0.148350    1.064880
+                                0.157080    1.107610
+                                0.165810    1.150170
+                                0.174530    1.192540
+                                0.183260    1.234730
+                                0.191990    1.276720
                           </tableData>
                       </table>
                 </product>
